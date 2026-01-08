@@ -70,7 +70,7 @@ Stages predicted:
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 ### **1. itworksunet.pth**
 
@@ -118,7 +118,7 @@ Stages predicted:
 
   * Verifying U-Net performance
 
-### ** lesion_features_from_seg.csv**
+### lesion_features_from_seg.csv
 
 * Stores numerical features extracted from segmentation
 * Acts as a **bridge between segmentation and grading**
@@ -135,7 +135,7 @@ Stages predicted:
 
   * `dr_stage_model.pkl`
 
-### ** dr_stage_training_data.csv**
+### dr_stage_training_data.csv
 
 * Final dataset for DR stage prediction
 * Combines:
@@ -144,10 +144,9 @@ Stages predicted:
   * Lesion features
   * DR stage labels
 
-
 ---
 
-## Overall Workflow (Simple Explanation)
+## Overall Workflow
 
 > The system first identifies abnormal retinal features using segmentation.
 > These detected features are then used to predict the severity stage of Diabetic Retinopathy.
