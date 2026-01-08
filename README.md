@@ -72,16 +72,15 @@ Stages predicted:
 
 ## Models Used
 
-### **1. itworksunet.pth**
+### 1. itworksunet.pth
 
 * Trained **U-Net segmentation model**
 * Used for:
   * Detecting retinal abnormalities
 * Performs **feature localization**
 
----
 
-### **2. dr_stage_model.pkl**
+### 2. dr_stage_model.pkl
 
 * Trained **disease grading model**
 * Uses:
@@ -94,7 +93,7 @@ Stages predicted:
 
 ## Sequential Flow
 
-### ** 1.correct_dataset.ipynb**
+###  1.correct_dataset.ipynb
 
 **Role:** Retinal feature detection
 
@@ -108,8 +107,7 @@ Stages predicted:
 
   * `itworksunet.pth`
 
----
-### ** 2. unet_model_results.ipynb**
+###  2. unet_model_results.ipynb
 
 **Role:** Demonstration & testing
 
@@ -124,8 +122,7 @@ Stages predicted:
 * Acts as a **bridge between segmentation and grading**
 * Improves interpretability of the system
 
----
-### ** 3. dr_stage.ipynb**
+###  3. dr_stage.ipynb
 
 **Role:** Disease severity prediction
 
